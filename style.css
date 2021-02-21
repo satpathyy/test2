@@ -1,0 +1,56 @@
+body{
+    background: black;
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+img{
+    border-radius: 50%;
+
+}
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+}
+.profile-name {
+    text-align: center;
+    padding: 10px;
+    
+}
+.intro {
+    text-align: center;
+    padding: 10px;
+   
+    
+}
+.bio {
+    text-align: center;
+    padding: 10px;
+}
+.links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-width: 1px;
+    border-radius: 40px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+}
+a:hover {
+    color: black;
+    background: white;
+}
